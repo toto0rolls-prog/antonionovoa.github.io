@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimalist Web Design</title>
+    <style>
+        /* Reset default margins and paddings */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            background-color: #ffffff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+            header h1 {
+                font-size: 3em;
+                margin-bottom: 10px;
+            }
+
+            header p {
+                font-size: 1.2em;
+                color: #666;
+            }
+
+        section {
+            max-width: 1000px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+
+        .services {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        .service-card {
+            background-color: #ffffff;
+            padding: 30px;
+            flex: 1 1 250px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+            .service-card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            }
+
+            .service-card h3 {
+                margin-bottom: 15px;
+            }
+
+            .service-card p {
+                color: #666;
+            }
+
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            background-color: #ffffff;
+            border-top: 1px solid #eee;
+            color: #999;
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+            a:hover {
+                text-decoration: underline;
+            }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Antonio's Web Services</h1>
+        <p>Professional, minimalist websites ready to use</p>
+    </header>
+
+    <section>
+        <h2 style="text-align:center; margin-bottom:40px;">What I Offer</h2>
+        <div class="services">
+            <div class="service-card">
+                <h3>Custom Websites</h3>
+                <p>Responsive websites built using HTML & CSS, tailored to your brand.</p>
+            </div>
+            <div class="service-card">
+                <h3>Website Optimization</h3>
+                <p>Fast-loading, clean websites that look great on all devices.</p>
+            </div>
+            <div class="service-card">
+                <h3>Maintenance & Updates</h3>
+                <p>Keep your site updated and functional without any hassle.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Contact me: <a href="mailto:Toto0rolls@gmail.com">Toto0rolls@gmail.com</a></p>
+    </footer>
+
+</body>
+</html>
